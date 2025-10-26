@@ -23,3 +23,4 @@ make ui   # then open http://localhost:5000
 ### Notes
 - Tracking URI defaults to a local **file store** at `./mlruns` (configured in Dev Container).
 - Swap to a remote tracking server later by setting `MLFLOW_TRACKING_URI` and using a proper backend store.
+# prueba CI
