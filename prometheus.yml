@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'iris_ab_service'
+    static_configs:
+      # This tells Prometheus to scrape your FastAPI metrics endpoint every 5 seconds
+      - targets: ['host.docker.internal:8000']
